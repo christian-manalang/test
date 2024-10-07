@@ -13,11 +13,11 @@ df.head(10)
 
 nbins = int(np.sqrt(len(df)))
 
-    plt.figure(figsize=(10, 8))
-    plt.hist(df['Price (Euro)'], bins=nbins, edgecolor='black')
+plt.figure(figsize=(10, 8))
+plt.hist(df['Price (Euro)'], bins=nbins, edgecolor='black')
 
-    plt.title('Distribution of Laptop Prices', fontsize=12, fontweight='bold')
-    plt.xlabel('Price (Euro)')
-    plt.ylabel('Frequency')
+plt.title('Distribution of Laptop Prices', fontsize=12, fontweight='bold')
+plt.xlabel('Price (Euro)')
+plt.ylabel('Frequency')
 
-    st.pyplot(plt)
+st.pyplot(plt)
