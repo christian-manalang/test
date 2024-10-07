@@ -6,3 +6,7 @@ import matplotlib.pyplot as plt
 
 st.title("GROUP 4")
 st.header("Laptop Prices Dataset")
+
+df.head(10)
+
+df.info
